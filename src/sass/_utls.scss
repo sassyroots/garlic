@@ -1,0 +1,50 @@
+
+$pad: (
+  "0": 0px,
+  "5": 5px,
+  "10": 10px,
+  "15": 15px,
+  "20": 20px,
+);
+
+$mar: (
+  "0": 0px,
+  "5": 5px,
+  "10": 10px,
+  "15": 15px,
+  "20": 20px,
+);
+
+@each $key, $val in $pad {
+  .pad-#{$key} {padding: $val;}
+  .pad-top-#{$key} {padding-top: $val;}
+  .pad-bottom-#{$key} {padding-bottom: $val;}
+  .pad-left-#{$key} {padding-left: $val;}
+  .pad-right-#{$key} {padding-right: $val;}
+  .pad-block-#{$key} {padding-block: $val;}
+  .pad-cell-#{$key} {padding-left: $val; padding-right: $val;}
+  .gap-#{$key} > * {
+    padding: $val;
+  }
+}
+
+@each $key, $val in $mar {
+  .mar-#{$key} {margin: $val;}
+  .mar-top-#{$key} {margin-top: $val;}
+  .mar-bottom-#{$key} {margin-bottom: $val;}
+  .mar-left-#{$key} {margin-left: $val;}
+  .mar-right-#{$key} {margin-right: $val;}
+  .mar-block-#{$key} {margin-block: $val;}
+  .mar-cell-#{$key} {margin-left: $val; margin-right: $val;}
+  .gap-#{$key} {
+    margin-left: -$val;
+    margin-right: -$val;
+  }
+}
+
+.br-5 {
+  border-width: 5px;
+}
+.br-dash {
+  border-style: dashed;
+}

@@ -1,0 +1,29 @@
+
+$colors: (
+  "ink": #000000,
+  "paper": #ffffff,
+  "ink-80": #1E1E1E,
+  "prime-darker": #182F4A,
+  "prime": #224268,
+  "prime-light": #4876AC,
+  "prime-lightest": #ACC8E5,
+  "link": #9747FF,
+  "accent": #226831,
+  "accent-lighter": #93EBAB,
+  "spotify": #1DB954,
+  "discord": #5865F2,
+  "meetup": #e51937,
+);
+
+@each $key, $val in $colors {
+  .#{$key}-clr{ color: $val; }
+  .#{$key}-bk{ background-color: $val; }
+  .#{$key}-br{ border: 1px solid $val}
+  .#{$key}-br-block{ border-top: 1px solid $val; border-bottom: 1px solid $val; }
+  .#{$key}-br-cell{ border-left: 1px solid $val; border-right: 1px solid $val; }
+  .#{$key}-br-top{ border-top: 1px solid $val; }
+  .#{$key}-br-bottom{ border-bottom: 1px solid $val; }
+  .#{$key}-br-left{ border-left: 1px solid $val; }
+  .#{$key}-br-right{ border-right: 1px solid $val; }
+}
+

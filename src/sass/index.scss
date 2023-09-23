@@ -1,0 +1,19 @@
+@import 'grid','utls','colors', 'type';
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  container-name: inline-size;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img { max-width: 100% }

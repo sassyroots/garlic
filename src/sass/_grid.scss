@@ -1,0 +1,31 @@
+
+.split { display: flex; flex-flow: row wrap; }
+.split-full { width: 100%; }
+.split-75 { width: 75%; }
+.split-2-3 { width: 66%; }
+.split-50 { width: 50%; }
+.split-1-3 { width: 33%; }
+.split-25 { width: 25%; }
+
+$layout-values: flex-start, flex-end, center, space-between, space-around;
+$layout-direction: row, row-reverse, column, column-reverse;
+
+@each $val in $layout-values {
+  .justify-#{$val} {
+    justify-content: $val;
+  }
+}
+@each $val in $layout-direction {
+  .dir-#{$val}-xs {
+    flex-direction: $val;
+  }
+}
+
+// note: gaps are set in the utls file with padding & margin
+
+/* 
+DECISION - because I'm be using container quieries... I've made the grid very simple here simply set a media query on a "section" using splits. Then have the component respond to the size it's being stuffed into.
+
+example... a the body content may use 3 sections (left rail, article, right rail). These could use media queries to define... while a card inside uses a container query. Alternatively, everything could just use containers if I place just place a container on the body -- yeah, let's do this.
+
+*/

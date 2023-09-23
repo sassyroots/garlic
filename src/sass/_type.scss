@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,400;1,100&display=swap');
+
+@import 'grid';
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+.font-alt {
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+body {
+  font-size: 1rem;
+  @extend .font;
+  margin: 0;
+  padding: 0;
+}
+
+.display, h1, h3, h5 {
+  @extend .font-alt;
+}
+
+h1 {
+  font-size: 2.75rem;
+  line-height: 2.95rem;
+  @media screen and (min-width: 800px) {
+    font-size: 3rem;
+    line-height: 3.25rem;
+  }
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  @media screen and (min-width: 800px) {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  @media screen and (min-width: 800px) {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
+h4, h5 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+.intro {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: .75rem;
+}
+
+a {
+  @extend .link-clr;
+  text-decoration: none;
+  border-bottom: dotted;
+  &:hover {
+    border: none;
+    @extend .prime-light-clr;
+  }
+}
+
+
+%btn {
+  padding: 10px 5px ;
+  border-radius: 6px;
+}
+
+.btn {
+  @extend %btn;
+  border: 0;
+  @extend .paper-clr;
+  @extend .link-bk;
+  &:hover {
+    @extend .prime-light-bk;
+  }
+}
+
+.btn-second {
+  @extend .btn;
+  @extend .accent-bk;
+}
+
+.btn-outline {
+  @extend %btn;
+  @extend .paper-bk;
+  @extend .link-clr;
+  @extend .link-br;
+  &:hover {
+    @extend .prime-light-br;
+    @extend .prime-light-clr;
+  }
+}
+
+
