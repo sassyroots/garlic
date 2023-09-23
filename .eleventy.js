@@ -9,16 +9,22 @@ module.exports = function (eleventyConfig) {
     documentToHtmlString(value)
   );
 
-  // Watch CSS files for changes
-  eleventyConfig.setBrowserSyncConfig({
-    files: './_site/css/**/*.css'
-  });
-
   //shortcodes
   eleventyConfig.addShortcode('icon', (arg) => `<i class="${arg}"></i>`);
   eleventyConfig.addShortcode('logo', (arg) => `<img src="/img/site/logo-${arg}.png" />`);
 
+  /**************** Markdown Plugins********************/
+  let markdownIt = require("markdown-it");
+  var markdownItAttrs = require('markdown-it-attrs');
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+  let markdownLib = markdownIt(options).use(markdownItAttrs);
+  eleventyConfig.setLibrary("md", markdownLib);
 
+  // base folder structure
   return {
     passthroughFileCopy: true,
     dir: {
