@@ -27,6 +27,11 @@ module.exports = function (eleventyConfig) {
   };
   let markdownLib = markdownIt(options).use(markdownItAttrs);
   eleventyConfig.setLibrary("md", markdownLib);
+  const markdownItRenderer = new markdownIt();
+
+  eleventyConfig.addFilter('markdownify', (str) => {
+    return markdownItRenderer.renderInline(str);
+  });
 
   // base folder structure
   return {
@@ -39,3 +44,4 @@ module.exports = function (eleventyConfig) {
     }
   };
 }
+
