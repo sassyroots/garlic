@@ -1,0 +1,50 @@
+.foot {
+  @extend .prime-bk;
+  container-type: inline-size;
+  @extend .paper-clr;
+  a { @extend .paper-clr; border: 0;}
+  .foot-logo {
+    max-width: 8rem;
+    height: auto;
+  }
+  .notice {
+    @extend .text-xs;
+    @extend .mar-block-15;
+  }
+  .foot-container {
+    @extend .container;
+    @extend .pad-20;
+    @container (max-width: 799px){
+      display: inline;
+      .foot-nav {
+        height: 100px; /*your fixed height*/
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+        .li {
+          display: inline-block; /*necessary*/
+        }
+      }
+    }
+    @container (min-width: 800px){
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      .foot-nav {
+        height: 100px; /*your fixed height*/
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+                column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+        .li {
+          display: inline-block; /*necessary*/
+        }
+      }
+    }
+  }
+  
+  
+}
+:has(> .foot) {
+  container-type: inline-size;
+}

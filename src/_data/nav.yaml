@@ -1,0 +1,48 @@
+nav:
+  - title: home
+    href: /home/
+  - title: articles
+    href: /
+    state: draft
+  - title: learn
+    href: /
+    state: draft
+  - title: community
+    href: /
+    state: draft
+  - title: consultations
+    href: /
+    state: draft
+  - title: shop
+    href: /
+  - title: about sassy roots
+    href: /
+
+foot:
+  - title: about sassy roots
+    href: /
+    state: draft
+  - title: past issues
+    href: /
+    state: draft
+  - title: recipe index
+    href: /
+    state: draft
+  - title: membership
+    href: /
+    state: draft
+  - title: tutorials
+    href: /
+    state: draft
+  - title: subscription boxes
+    href: /
+    state: draft
+  - title: journals
+    href: /
+    state: draft
+  - title: t-shirts
+    href: /
+    state: draft
+  - title: supplies
+    href: /
+    state: draft

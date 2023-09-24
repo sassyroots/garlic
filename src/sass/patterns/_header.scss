@@ -1,0 +1,26 @@
+.head {
+  container-type: inline-size;
+  @extend .prime-bk;
+  a {border: 0;}
+  .head-container {
+    @extend .container;
+    @extend .pad-20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topnav {
+    a {
+      @extend .paper-clr;
+      @extend .font-alt;
+      font-size: 1.5rem;
+      &:nth-child(n+3):before {
+        content: " | ";
+      }
+      &:hover {
+        @extend .prime-lightest-clr;
+      }
+    }
+  }
+}
