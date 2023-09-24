@@ -18,31 +18,40 @@ body {
 .display, h1, h3, h5 {
   @extend .font-alt;
 }
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
 
 h1 {
   font-size: 2.75rem;
-  line-height: 2.95rem;
+  line-height: 2;
   @media screen and (min-width: 800px) {
     font-size: 3rem;
-    line-height: 3.25rem;
+    line-height: 2;
   }
 }
 
 h2 {
   font-size: 2.25rem;
-  line-height: 2.5rem;
+  line-height: 2;
   @media screen and (min-width: 800px) {
     font-size: 2.5rem;
-    line-height: 2.75rem;
+    line-height: 2;
   }
 }
 
 h3 {
   font-size: 1.75rem;
-  line-height: 2rem;
+  line-height: 2;
   @media screen and (min-width: 800px) {
     font-size: 2rem;
-    line-height: 2.25rem;
+    line-height: 2;
   }
 }
 
@@ -52,11 +61,12 @@ h4, h5 {
 }
 .intro {
   font-size: 1.25rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 .text-xs {
   font-size: .75rem;
+  line-height: 1;
 }
 
 a {
