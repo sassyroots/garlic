@@ -1,0 +1,25 @@
+.spotlight {
+  container-type: inline-size;
+  h2 {
+    font-size: 1.25rem;
+  }
+  .spotlight-body {
+    @container (max-width: 400px){
+      img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    @container (min-width: 400px){
+      display: flex;
+      column-gap: 10px;
+      align-content: flex-start;
+    }
+    
+  }
+}
+
+:has(> .spotlight) {
+  container-type: inline-size;
+}

@@ -1,0 +1,24 @@
+.com-links {
+  @container (max-width: 480px) {
+    a::after {
+      content: "\a";
+      white-space: pre;
+    }
+  }
+  text-align: center;
+  @container (min-width: 480px) {
+    a::after {
+      content: " | ";
+      @extend .ink-clr;
+      border-bottom: none;
+    }
+    a:last-child:after {
+      content: "";
+    }
+    text-align: left;
+  }
+}
+
+:has(> .com-links) {
+  container-type: inline-size;
+}
