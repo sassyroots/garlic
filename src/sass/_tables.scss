@@ -1,0 +1,15 @@
+table, th, td {
+  @extend .paper-br !optional;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  @extend .paper-clr;
+  @extend .prime-bk;
+}
+tr:nth-child(even){ @extend .prime-lightest-bk; }

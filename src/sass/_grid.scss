@@ -21,6 +21,10 @@ $layout-direction: row, row-reverse, column, column-reverse;
   }
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
 // note: gaps are set in the utls file with padding & margin
 
 /* 
@@ -29,3 +33,4 @@ DECISION - because I'm be using container quieries... I've made the grid very si
 example... a the body content may use 3 sections (left rail, article, right rail). These could use media queries to define... while a card inside uses a container query. Alternatively, everything could just use containers if I place just place a container on the body -- yeah, let's do this.
 
 */
+

@@ -1,0 +1,54 @@
+.hero {
+  @extend .container;
+  
+  @container (max-width: 799px) {
+    display: inline;
+    .hero-img {
+      width: 100%;
+      max-height: 50px;
+      img {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+      }      
+    }
+    .hero-content {
+      width: 100%;
+      .hero-feature {
+        @extend .pad-20;
+      }
+    }
+    
+  }
+  @container (min-width: 800px) {
+    .hero-img {
+     @extend .split-50;
+     img {
+      height: 100%;
+      width: auto;
+      object-fit: cover;
+      opacity: 1;
+     }
+    }
+    .hero-content {
+      @extend .split-50;
+      @extend .pad-right-10;
+      .hero-feature {
+        @extend .pad-0;
+      }
+    }
+    
+    .spotlight {
+      @extend .pad-block-20;
+    }
+    display: flex;
+    @extend .gap-15;
+    align-content: flex-start;
+  }
+  
+}
+:has(> .hero) {
+  container-type: inline-size;
+}
+
