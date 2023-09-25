@@ -26,6 +26,9 @@ $mar: (
   .gap-#{$key} > * {
     padding: $val;
   }
+  .gap-col-#{$key} > * {
+    margin: $val;
+  }
 }
 
 @each $key, $val in $mar {

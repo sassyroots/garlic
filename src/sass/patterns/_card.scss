@@ -1,0 +1,56 @@
+.card-group {
+  @extend .container;
+  @extend .split;
+  @extend .gap-col-20;
+  margin-bottom: 20px;
+}
+.card {
+  @extend .split-1-3;
+  h2 { font-size: 1.75rem;}
+  img { 
+    max-height: 150px; 
+    width: 100%; 
+    object-fit: cover;
+    @extend .mar-bottom-10;
+  }
+  .card-body {
+    @extend .pad-cell-10;
+    flex: 1;
+    i:nth($n: -1) {
+      @extend .accent-clr;
+    }
+    :has(> i) p {
+      @extend .accent-clr;
+    }
+  }
+  .card-foot {
+    @extend .pad-10;
+  }
+  @extend .prime-br;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.card-flag {
+  .card-header {
+    grid-area: image;
+    img { 
+      max-height: 100%; 
+      height: auto;
+      width: 100%; 
+      object-fit: cover;
+      @extend .mar-bottom-0;
+    }
+  }
+  .card-body {
+    grid-area: body;
+  }
+  .card-foot {
+    grid-area: foot;
+  }
+  display: grid;
+  grid-template-areas: 
+  "image image body"
+  "image image foot";
+}

@@ -1,30 +1,31 @@
 ---
 layout: layouts/gumroad.md
-title: Good Coughs Only
-summary: This formula helps to suppress the dry irritating useless coughs, while still helping to pull out the gunk buried deep within.
-special: SPECIAL for - Sacred Vibes 6th Annual Spiritual Herbalism Conference
+title: Extra Dry Lips
+summary: For extra dry lips that suffer from cracking or rashes.
 herbs:
-  - elecampagne
-  - pleurisy root
-  - wild cherry bark
+  - Chickweed
+  - Plantain
+  - Lavender
+  - Yarrow
+  - Calendula
+  - Comfrey
+  - St. Johns Wort
+  - Echinacea
 ingredients: #contains ingrediets other than the herbs
-  - grain alcohol
-purpose: lungs
-method: tincture
+  - avocado oil
+  - jojoba oil
+  - beeswax
+purpose: lips
+method: salve
 lines: 
   - West Line
 # collection:
 dosage: |
-  For teens and adults, take 2 milliters (about 2 dropper full), 3 times per day, or as needed.
-  
-  For children, take 1 milliters (about 1 dropper full), 3 times per day, or as needed.
-
-  Can be added to juice or water.
-  _Not recommended for infants or pregnancy._
-variations: This product comes in 1oz, 2oz, and 4oz.
+  apply as needed
+variations: flavors
 # promotion:
 gumroad: "https://sassyroots.gumroad.com/l/notebook"
-price: $14.99
+price: $10
 # subscribe-link:
 img:
   - photo: tincture.png
