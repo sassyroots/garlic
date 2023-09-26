@@ -1,19 +1,28 @@
 ---
 layout: base.html
-title: Welcome to
+title: Hello World
 issue: 1
 when: "September 2023"
-
+podlink: "/"
+hero:
+  - img: garlic.png
+    article: "Ode to Garlic"
+    summary: Genmai hong kong-style milk camellia sinensis fair trade strainer catechin lapsang souchong yixing taro bai mudan mug bamboo whisk tea rose hips infuser.
+    links: true
+spotlight:
+  - title: "Be Herbal: Tutorial"
+    subtitle: A subtitle
+    article: "Garlic Honey"
+    summary: knsdknfkd sn
+    img: a_jar_of_honey.png
 ---
-<div class="home-hero">
-<img src="/img/sassy-background.png">
-<h1>Welcome to Sassy Roots Apothecary<h1>
-</div>
 
+{% include "patterns/hero.md" %}
 
-<div class="mini-shop prime-lightest-bk pad-block-20">
+<div class="mini-shop prime-lightest-bk">
 <div class="container">
-<h4 class="pad-left-10" >Now in store...</h4>
+<h4 >Now in store...</h4>
+<a href="/shop">view full shop</a>
 </div>
 <div class="card-group">
 {%- for post in collections.product | limit 3 %}

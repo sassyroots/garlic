@@ -25,6 +25,12 @@ $layout-direction: row, row-reverse, column, column-reverse;
   max-width: 1200px;
   margin: auto;
 }
+
+.content-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 // note: gaps are set in the utls file with padding & margin
 
 /* 

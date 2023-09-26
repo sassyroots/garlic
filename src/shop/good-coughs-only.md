@@ -23,7 +23,7 @@ dosage: |
   _Not recommended for infants or pregnancy._
 variations: This product comes in 1oz, 2oz, and 4oz.
 # promotion:
-gumroad: "https://sassyroots.gumroad.com/l/notebook"
+gumroad: "https://sassyroots.gumroad.com/l/good-coughs-only"
 price: $14.99
 # subscribe-link:
 img:

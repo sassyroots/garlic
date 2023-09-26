@@ -4,7 +4,7 @@
 {% if post.data.title == spot.article %}
 {% for hero in post.data.hero %}
 <div class="spotlight">
-<h2>{{ spotlight-title }}</h2>
+<h2>{{ spot.title }}</h2>
 <div class="spotlight-body">
 <div class="spotlight-img"> 
 {% for img in hero.img %}

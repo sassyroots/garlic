@@ -16,11 +16,11 @@ nav:
   - title: shop
     href: /shop
   - title: about sassy roots
-    href: /
+    href: /about
 
 foot:
   - title: about sassy roots
-    href: /
+    href: /about
     state: draft
   - title: past issues
     href: /

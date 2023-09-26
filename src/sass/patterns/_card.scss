@@ -1,11 +1,22 @@
 .card-group {
   @extend .container;
-  @extend .split;
-  @extend .gap-col-20;
-  margin-bottom: 20px;
+  @container(max-width: 799px){ 
+    display: inline;
+  }
+  @container(min-width: 800px){ 
+    @extend .split;
+    flex-wrap: wrap;
+    @extend .gap-col-10;
+    margin-bottom: 20px;
+  }
 }
 .card {
+  @container(max-width: 799px){ 
+    width: 95%;
+  }
+  @container(min-width: 800px){ 
   @extend .split-1-3;
+  }
   h2 { font-size: 1.75rem;}
   img { 
     max-height: 150px; 
