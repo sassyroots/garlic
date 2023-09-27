@@ -3,9 +3,14 @@ layout: layouts/gumroad.md
 title: Extra Dry Lips
 summary: For extra dry lips that suffer from cracking or rashes.
 herbs:
+  - Chickweed
+  - Plantain
+  - Lavender
+  - Yarrow
   - Calendula
-  - Chamomile
-  - Red Clover
+  - Comfrey
+  - St. Johns Wort
+  - Echinacea
 ingredients: #contains ingrediets other than the herbs
   - avocado oil
   - jojoba oil
@@ -19,12 +24,12 @@ dosage: |
   apply as needed
 variations: flavors
 # promotion:
-gumroad: "https://sassyroots.gumroad.com/l/lipbalm"
-price: $8
+gumroad: "https://sassyroots.gumroad.com/l/soothe-balm"
+price: $10
 # subscribe-link:
 img:
-  - photo: dry-lip-balm.png
-    thumb: dry-lip-balm-thumb.png
+  - photo: extra-dry-lip-balm.png
+    thumb: extra-dry-lip-balm-thumb.png
     alt: photo of tincture bottle containing the good coughs only tinctures. 
 disclaimers: |
   This remedy contains pleurisy root, which can cause uterine contractions and therefore is not recommended with pregnancy.

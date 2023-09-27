@@ -27,8 +27,8 @@ gumroad: "https://sassyroots.gumroad.com/l/good-coughs-only"
 price: $14.99
 # subscribe-link:
 img:
-  - photo: tincture.png
-    thumb: tincture-thumb.png
+  - photo: goodcoughsonly.png
+    thumb: goodcoughsonly-thumb.png
     alt: photo of tincture bottle containing the good coughs only tinctures. 
 disclaimers: |
   This remedy contains pleurisy root, which can cause uterine contractions and therefore is not recommended with pregnancy.
