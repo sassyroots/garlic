@@ -16,6 +16,8 @@ when: "September 2023"
 ## Launched finally
 After over a decade of learning, it's time for me to finally share what I know with the world. This site is the hub space for my herbal practice served as a magazine style website with each issue being dedicated to a herb with stories, recipes, remedies, tutorials, and podcast. Most importantly, community building and education through our local meetups and our online community. 
 
+Stay tuned to the space for more... and...
+
 {% meetup %} | {% discord %}
 
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: layouts/gumroad.md
-title: Extra Dry Lips
+title: Soothing Balm for Extra Dry Lips
 summary: For extra dry lips that suffer from cracking or rashes.
 herbs:
   - Chickweed

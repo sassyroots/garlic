@@ -1,7 +1,7 @@
 ---
 layout: layouts/gumroad.md
-title: Extra Dry Lips
-summary: For extra dry lips that suffer from cracking or rashes.
+title: Lucious Lips
+summary: A nice smoothing balm to protect your lips against dryness.
 herbs:
   - Calendula
   - Chamomile
