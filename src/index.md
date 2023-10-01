@@ -30,7 +30,7 @@ Stay tuned to the space for more... and...
 {%- for post in collections.product %}
 <div class="card">
 {% for img in post.data.img %}
-<div class="card-header"><img src="/img/{{ img.thumb }}" alt="{{ img.alt }}"></div>
+<div class="card-header"><img src="/img/prod/{{ img.thumb }}" alt="{{ img.alt }}"></div>
 {% endfor %}
 <div class="card-body">
 {% if post.data.special %}

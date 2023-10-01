@@ -28,8 +28,8 @@ gumroad: "https://sassyroots.gumroad.com/l/soothe-balm"
 price: $10
 # subscribe-link:
 img:
-  - photo: extra-dry-lip-balm.png
-    thumb: extra-dry-lip-balm-thumb.png
+  - photo: extra-dry-lips.png
+    thumb: extra-dry-lips-thumb.png
     alt: photo of tincture bottle containing the good coughs only tinctures. 
 disclaimers: |
   This remedy contains pleurisy root, which can cause uterine contractions and therefore is not recommended with pregnancy.

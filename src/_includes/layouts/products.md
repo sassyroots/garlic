@@ -5,7 +5,7 @@ tags:
 ---
 <div class="product-hero split pad-20 gap-20">
 
-![{{img[0].alt}}](/img/{{img[0].photo}})
+![{{img[0].alt}}](/img/prod/{{img[0].photo}})
 
 <div class="product-body split-50">
 
