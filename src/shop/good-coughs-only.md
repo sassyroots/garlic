@@ -12,7 +12,7 @@ ingredients: #contains ingrediets other than the herbs
 purpose: lungs
 method: tincture
 lines: 
-  - West Line
+  - East Line
 # collection:
 dosage: |
   For teens and adults, take 2 milliters (about 2 dropper full), 3 times per day, or as needed.

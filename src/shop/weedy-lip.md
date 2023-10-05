@@ -1,6 +1,6 @@
 ---
 layout: layouts/gumroad.md
-title: Soothing Balm for Extra Dry Lips
+title: Weedy Relief Lip Balm
 summary: For extra dry lips that suffer from cracking or rashes.
 herbs:
   - Chickweed
@@ -18,8 +18,8 @@ ingredients: #contains ingrediets other than the herbs
 purpose: lips
 method: salve
 lines: 
-  - West Line
-# collection:
+  - East Line
+collection: "weedy relief"
 dosage: |
   apply as needed
 variations: flavors
@@ -28,11 +28,11 @@ gumroad: "https://sassyroots.gumroad.com/l/soothe-balm"
 price: $10
 # subscribe-link:
 img:
-  - photo: extra-dry-lips.png
-    thumb: extra-dry-lips-thumb.png
-    alt: photo of tincture bottle containing the good coughs only tinctures. 
+  - photo: weedy-lip.png
+    thumb: weedy-lip-thumb.png
+    alt: photo of the weedy lip balm. 
 disclaimers: |
-  This remedy contains pleurisy root, which can cause uterine contractions and therefore is not recommended with pregnancy.
+
 ---
 
 description will be here

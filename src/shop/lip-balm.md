@@ -13,7 +13,7 @@ ingredients: #contains ingrediets other than the herbs
 purpose: lips
 method: salve
 lines: 
-  - West Line
+  - East Line
 # collection:
 dosage: |
   apply as needed
@@ -25,9 +25,8 @@ price: $8
 img:
   - photo: dry-lips.png
     thumb: dry-lips-thumb.png
-    alt: photo of tincture bottle containing the good coughs only tinctures. 
-disclaimers: |
-  This remedy contains pleurisy root, which can cause uterine contractions and therefore is not recommended with pregnancy.
+    alt: photo of lip balm. 
+disclaimers: | 
 ---
 
 description will be here
