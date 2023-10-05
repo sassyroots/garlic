@@ -11,8 +11,7 @@ nav:
     href: /
     state: draft
   - title: consultations
-    href: /
-    state: draft
+    href: /consultations
   - title: shop
     href: /shop
   - title: about sassy roots
