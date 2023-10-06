@@ -38,7 +38,12 @@ Stay tuned to the space for more... and...
 {% endif %}
 <h5>{{ post.data.title }}</h5>
 </div>
+{% if post.data.gumroad-pdf %}
+<div class="card-foot">{% icon "fa-duotone fa-cart-shopping" %} {{ post.data.price }} <a href="{{ post.url }}">Order Print</a></div>
+<div class="card-foot">{% icon "fa-duotone fa-cart-shopping" %} {{ post.data.price-pdf }} <a href="{{ post.data.li }}">Download</a></div>
+{% else %}
 <div class="card-foot">{% icon "fa-duotone fa-cart-shopping" %} {{ post.data.price }} <a href="{{ post.url }}">Find out more!</a></div>
+{% endif %}
 </div>
 {%- endfor -%}
 </div>
