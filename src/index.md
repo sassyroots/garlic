@@ -22,7 +22,7 @@ Stay tuned to the space for more... and...
 
 </div>
 
-<div class="mini-shop prime-lightest-bk pad-block-20">
+<div class="mini-shop prime-lightest-bk content-container">
 
 ## Now in Store!!
 While I'm working to bring my products online here... please check out my shopping site on [Gumroad](https://sassyroots.gumroad.com).
